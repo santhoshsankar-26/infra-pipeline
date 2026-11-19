@@ -1,7 +1,7 @@
 module "vpc" {
     source      = "../../modules/vpc"
-    Cidr_vpc    = "10.0.0.0/16"
-    Cidr_sub    = "10.0.1.0/24"
+    cidr_vpc    = "10.0.0.0/16"
+    cidr_sub    = "10.0.1.0/24"
     av_zone_sub = "${var.region_aws}"
     env         = "dev"
 

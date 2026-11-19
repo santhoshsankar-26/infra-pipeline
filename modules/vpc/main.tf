@@ -1,6 +1,6 @@
 resource "aws_vpc" "terra-vpc" {
   cidr_block       =  var.cidr_vpc
-  instance_tenancy = default
+  instance_tenancy = "default"
 
   tags = {
     Name = "${var.env}-terra-vpc"
