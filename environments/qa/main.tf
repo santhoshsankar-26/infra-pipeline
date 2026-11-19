@@ -20,6 +20,6 @@ module "ec2" {
 
 module "s3" {
     source      = "../../modules/s3"
-    bucket_name = "${environment}-bucket-9900"
+    bucket_name = "qa-bucket-9900"
     environment = "qa"    
 }
