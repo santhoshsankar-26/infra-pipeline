@@ -5,13 +5,14 @@
 
 variable "cidr_vpc" {
     type = string
-    description = " CIDR  for an VPC "
+    description = " cidr  for an VPC "
 }
 
 variable "cidr_sub" {
     type = string
-    description = " CIDR  for an Subnet "
+    description = " cidr  for an Subnet "
 }
+
 
 variable "av_zone_sub" {
     type = string

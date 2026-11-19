@@ -3,9 +3,10 @@ resource "aws_vpc" "terra-vpc" {
   instance_tenancy = default
 
   tags = {
-    Name = "${var.env}-vpc"
+    Name = "${var.env}-terra-vpc"
   }
 }
+
 
 resource "aws_subnet" "terra-sub" {
   vpc_id            = aws_vpc.terra-vpc.id
