@@ -1,5 +1,5 @@
 git pipeline {
-  agent any
+    agent any
 
   environment {
     ENV = "${env.BRANCH_NAME}"   
