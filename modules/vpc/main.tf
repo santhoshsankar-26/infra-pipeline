@@ -18,6 +18,6 @@ resource "aws_subnet" "terra-sub" {
 }
 
 output "subnet_id" {
-    value       = "aws_subnet.terra-sub.id"
+    value       = aws_subnet.terra-sub.id
     description = "subnet id  for ec2"
 }
