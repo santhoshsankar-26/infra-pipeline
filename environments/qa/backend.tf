@@ -9,7 +9,7 @@ terraform {
     bucket         = "pip-terra-bucket"
     key            = "environments/qa/terraform.tfstate"
     region         = "ap-south-1"
-    dynamodb_table = "terraform-lockz"
+    use_lockfile   = true 
   }
 }
 
