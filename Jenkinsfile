@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    ENV = "${env.BRANCH_NAME}" #  
+    ENV = "${env.BRANCH_NAME}"   
     TF_WORKDIR = "environments/${env.BRANCH_NAME}"  
   }
 
@@ -50,4 +50,4 @@ pipeline {
       }
     }
   }
-} #
+} 
