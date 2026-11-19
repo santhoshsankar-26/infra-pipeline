@@ -1,4 +1,4 @@
-
+/*
 module "vpc" {
     source      = "../../modules/vpc"
     cidr_vpc    = "11.0.0.0/16"
@@ -23,3 +23,4 @@ module "s3" {
     bucket_name = "qa-bucket-9900"
     environment = "qa"    
 }
+*/
